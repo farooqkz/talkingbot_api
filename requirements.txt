@@ -1,4 +1,4 @@
 chatterbot
 cherrypy
-spacy
 chatterbot_corpus
+spacy<2.2,>=2.1
