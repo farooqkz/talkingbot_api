@@ -18,6 +18,6 @@ class TalkingKai:
         
 conf= {"global": {
     "server.socket_host": "0.0.0.0",
-    "server.socket_port":
+    "server.socket_port": os.environ.get("PORT") or 8080
     }}
 cherrypy.quickstart(TalkingKai(), "/", conf)
