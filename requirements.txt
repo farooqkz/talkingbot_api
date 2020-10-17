@@ -1,5 +1,2 @@
 chatterbot
 cherrypy
-chatterbot_corpus
-spacy<2.2,>=2.1
-PyYAML<4.0,>=3.12
