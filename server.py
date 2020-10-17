@@ -18,6 +18,6 @@ class TalkingKai:
         
 conf= {"global": {
     "server.socket_host": "0.0.0.0",
-    "server.socket_port": int(os.getenv("POST"))
+    "server.socket_port": int(os.getenv("PORT"))
     }}
 cherrypy.quickstart(TalkingKai(), "/", conf)
