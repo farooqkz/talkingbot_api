@@ -1,3 +1,4 @@
 chatterbot
 cherrypy
 spacy
+chatterbot_corpus
